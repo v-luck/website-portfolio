@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('GothamBold.eot');
+    src: url('GothamBold.eot?#iefix') format('embedded-opentype'),
+        url('GothamBold.woff2') format('woff2'),
+        url('GothamBold.woff') format('woff'),
+        url('GothamBold.svg#GothamBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font: 15px/1.5 Arial;
+    padding: 0;
+    margin: 0;
+    background-Color:#f4f4f4;
+}
+
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+/* Header */
+header{
+    font: 20px/1.5 Gotham;
+    padding-top:30px;
+    Color:#ffffff;
+    background:#2b2d2f;
+    border-bottom:#ff00A2 3px solid;
+}
+
+header a{
+    font: 20px/1.5 Gotham;
+    Color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+header ul{
+    margin-top:1px;
+    padding:0;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 30px 0 30px;
+}
+
+header #logo{
+    float:left;
+    margin: 0px 35px 20px 20px;
+}
+
+header #logo img{
+    float:right;
+    margin: 0px 0px 10px 0px;
+}
+
+header #branding{
+    float:left;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+header #branding h1{
+    margin:0px;
+}
+
+header nav{
+    float:right;
+    margin-right: 100px;
+    margin-top:18px;
+}
+
