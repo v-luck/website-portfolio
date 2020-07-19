@@ -109,9 +109,15 @@ header .highlight, header .current a{
 }
 
 /* Showcase */
-#Hello{
-    background:url('../img/yayyy.svg')no-repeat;
-    min-height:482px;
+#showcase{
+    background:url('../img/turtle.png')no-repeat -900px;
+    min-height:400px;
     border-bottom:#ff00A2 5px solid;
+    text-align:center;
+
+}
+#showcase h1{
+    font: 50px/1.5 Gotham;
+    Color:#ffffff;
 }
 
