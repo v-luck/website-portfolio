@@ -14,7 +14,8 @@ body{
     font: 15px/1.5 Arial;
     padding: 0;
     margin: 0;
-    background-Color:#2c2f33;
+    background:#23272a;
+    color:#ffffff;
 }
 
 /* Global */
@@ -60,6 +61,9 @@ header #logo img{
     margin: 0px 0px 10px 0px;
 }
 
+header #sickbranding{
+    margin-left: 30px;
+}
 header #branding{
     float:left;
     margin-bottom: 30px;
@@ -111,13 +115,42 @@ header .highlight, header .current a{
 /* Showcase */
 #showcase{
     background:url('../img/turtle.png')no-repeat -900px;
-    min-height:400px;
     border-bottom:#ff00A2 5px solid;
     text-align:center;
-
-}
-#showcase h1{
-    font: 50px/1.5 Gotham;
+    font: 60px/1.5 Gotham;
     Color:#ffffff;
 }
+
+.rainbow-text{
+
+    background:url('../img/rainbow.svg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1000px;
+    animation:textRainbow 5s infinite linear forwards;
+    margin-top:150px;
+    margin-bottom:150px;
+}
+
+@keyframes textRainbow{
+    100%{
+        background-position:1000px 0px;
+    }
+}
+
+
+#showcase p{
+    font: 20px/1.5 Gotham;
+    margin-bottom: 100px
+}
+
+#aboutme{
+    font: 20px/1.5 Helvetica;
+    Color: #ffffff;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
 
