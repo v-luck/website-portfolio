@@ -128,56 +128,6 @@ header .highlight, header .current a{
     transform: scaleX(1)
 }
 
-/* Showcase */
-#showcase{
-    background:url('../img/turtle.png')no-repeat -900px;
-    border-bottom:#ff00A2 5px solid;
-    text-align:center;
-    font: 60px/1.5 Gotham;
-    Color:#ffffff;
-}
-
-.rainbow-text{
-
-    background:url('../img/rainbow.svg');
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 1000px;
-    animation:textRainbow 5s infinite linear forwards;
-    margin-top:150px;
-    margin-bottom:150px;
-}
-
-@keyframes textRainbow{
-    100%{
-        background-position:1000px 0px;
-    }
-}
-
-
-#showcase p{
-    font: 20px/1.5 Gotham;
-    margin-bottom: 100px
-}
-
-#aboutme {
-    margin-top: 20px;
-}
-#aboutme h1{
-    font: 25px/1.5 Gotham;
-    text-align:center;
-}
-
-#aboutme p{
-    margin-top: 20px;
-    margin-left: 400px;
-    margin-right: 400px;
-}
-
-hr {
-    margin-left: 350px;
-    margin-right: 350px;
-}
 
 
 footer{
