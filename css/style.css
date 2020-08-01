@@ -161,20 +161,32 @@ header .highlight, header .current a{
 }
 
 #aboutme {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 #aboutme h1{
     font: 25px/1.5 Gotham;
     text-align:center;
+    border-bottom:1px solid #fff;
+    line-height:0.1em;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 40px;
+}
+
+#aboutme h1 span{
+    background:#23272a;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #aboutme p{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 400px;
     margin-right: 400px;
 }
 
 hr {
+    margin-top: 30px;
     margin-left: 350px;
     margin-right: 350px;
 }
